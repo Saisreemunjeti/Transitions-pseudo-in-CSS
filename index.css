@@ -1,0 +1,29 @@
+body{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 200px;
+    height: 300px;
+    background-color: brown;
+    transition-property: background-color;
+    transition-duration: 4s;
+    transition-delay: 3s;
+}
+/* .container:hover{
+    background-color: bisque;
+    padding: 20px;
+    height:400px;
+} */
+ .container>p{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    opacity: 0;
+    transition: all 4s ease;
+ }
+.container:hover>p{
+    opacity: 1;
+}
